@@ -153,6 +153,22 @@ head{
     justify-content: center;
     align-items: center;
 }
+.quest-text-2-2{
+    color: floralwhite;
+    font-size: 70%;
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.quest-text-2-3{
+    color: floralwhite;
+    font-size: 30%;
+    width: 50%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
 .gap{
     width: 20%;
     height: 100%;
