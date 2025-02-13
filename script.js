@@ -25,7 +25,7 @@ let klik = 0;
             element.id = "b-quest2";
             huruf.classList.add("a-quest2");
             huruf.id = "a-quest2";
-            kata.textContent = "ええ、 なんで？？:(";
+            kata.textContent = "なんで,なんで,なんで,なんで,なんで？？:(";
             
         } 
         else if (clickCount == 2) {
@@ -33,12 +33,15 @@ let klik = 0;
             element.id = "b-quest3";
             huruf.classList.add("a-quest3");
             huruf.id = "a-quest3";
+            kata.textContent = "これは不可能です:(";
             
         } else if (clickCount == 3) {
             element.classList.add("b-quest4");
             element.id = "b-quest4";
             huruf.classList.add("a-quest4");
             huruf.id = "a-quest4";
+            kata.textContent = "冗談じゃないですよね？？";
+
         } else if (clickCount == 4) {
             element.classList.add("b-quest5");
             element.id = "b-quest5";
@@ -46,6 +49,7 @@ let klik = 0;
             huruf.id = "a-quest5";
             liQuest.classList.add("li-questb2");
             liQuest.id = "li-questb2";
+            kata.textContent = "ハハハ、もうどこにも行けないから… :b";
         }
             
         clickCount++;

@@ -1,15 +1,24 @@
 *,
 .sticker{
-    display: flex;
+    display: block;
     /* background-color: #FFF2B3; */
     width: 100%;
-    height: 300px;
+    height: 600px;
     justify-content: center;
+
 }
 .frieren1{
     display: flex;
     width: 300px;
     align-items: center;
+    justify-content: center;
+}
+.frieren0{
+    display: flex;
+    width: 415px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
 }
 body{
     width: 100%;
@@ -35,11 +44,41 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+.kata1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 250px;
+    color: black;
+    text-decoration: double;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 .roman{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 400px;
+    height: 550px;
+    color: black;
+    text-decoration: double;
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.judul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
     color: black;
     text-decoration: double;
     display: flex;
@@ -50,6 +89,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 .katain{
     margin: 0;
     padding: 0;
@@ -77,12 +117,12 @@ head{
     height: 1000px;
 }
 .left{
-    width: 25%;
-    height: 1000px;
+    width: 15%;
+    height: 1500px;
 }
 .mid{
-    width: 50%;
-    height: 1000px;
+    width: 70%;
+    height: 1500px;
     display: block;
     margin: 0;
     padding: 0;
@@ -90,6 +130,7 @@ head{
 .quest{
     width: 100%;
     height: 50px;
+    display: flex;
 }
 .b-quest{
     width: 100%;
@@ -261,8 +302,8 @@ head{
     height: 100%;
 }
 .right{
-    width: 25%;
-    height: 1000px;
+    width: 15%;
+    height: 1500px;
 
 }
 /* .ul-quest{
